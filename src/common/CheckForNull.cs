@@ -4,13 +4,10 @@
 
 public class CheckForNull
 {
-    public void Method01(string parameter)
+    public void __(string parameter)
     {
         _ = parameter ?? throw new ArgumentNullException(nameof(parameter));
-    }
 
-    public void Method02(string parameter)
-    {
         if (parameter is null) { }
 
         if (parameter is not null) { }
