@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\common\Csharp.Common.csproj" />
+    <ProjectReference Include="..\common\Csharp.Extensions.csproj" />
     <ProjectReference Include="..\configuration\Csharp.Configuration.csproj" />
   </ItemGroup>
 

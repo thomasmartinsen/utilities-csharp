@@ -8,4 +8,8 @@
     <RootNamespace>Csharp.Assembly</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Extensions\Csharp.Extensions.csproj" />
+  </ItemGroup>
+
 </Project>

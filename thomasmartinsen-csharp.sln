@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp.Common", "src\common\Csharp.Common.csproj", "{13490846-6546-4D7B-BC9C-A7E9A1DC7968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp.Extensions", "src\extensions\Csharp.Extensions.csproj", "{13490846-6546-4D7B-BC9C-A7E9A1DC7968}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp.Configuration", "src\configuration\Csharp.Configuration.csproj", "{09F0103C-DABE-43A3-B685-DFD4AEE06B40}"
 EndProject

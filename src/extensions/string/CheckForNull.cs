@@ -1,4 +1,4 @@
-﻿namespace Csharp.Common;
+﻿namespace Csharp.Extensions;
 
 public static partial class String
 {

@@ -34,7 +34,7 @@ public static class LoadSettings
     /// <summary>
     /// Load the settings from the specified configuration file if it exists.
     /// </summary>
-    internal static T FromFile<T>(string configFile)
+    internal static T FromFile<T>(string configFile) where T : Settings
     {
         if (!File.Exists(configFile))
         {
@@ -53,7 +53,7 @@ public static class LoadSettings
     /// <summary>
     /// Load the settings from user secrets.
     /// </summary>
-    internal static T FromUserSecrets<T>()
+    internal static T FromUserSecrets<T>() where T : Settings
     {
         var configuration = new ConfigurationBuilder()
             .AddUserSecrets<T>()

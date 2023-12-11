@@ -1,5 +1,5 @@
 ﻿using System.Reflection;
-using Csharp.Common;
+using Csharp.Extensions;
 
 namespace Csharp.Assembly;
 
