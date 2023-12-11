@@ -4,8 +4,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>Martinsen.Csharp.Common</AssemblyName>
-    <RootNamespace>Csharp.Common</RootNamespace>
+    <AssemblyName>Martinsen.Csharp.Assembly</AssemblyName>
+    <RootNamespace>Csharp.Assembly</RootNamespace>
   </PropertyGroup>
 
 </Project>
