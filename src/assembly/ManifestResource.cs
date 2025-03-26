@@ -1,6 +1,4 @@
-﻿using Extensions;
-
-namespace Assembly;
+﻿namespace Assembly;
 
 public static class ManifestResource
 {
@@ -9,11 +7,21 @@ public static class ManifestResource
     /// If the resource is not found an FileNotFoundException is thrown.
     public static string GetManifestResourceName(string resourceFileName)
     {
-        resourceFileName.CheckForNull();
+        _ = resourceFileName ?? throw new ArgumentNullException(nameof(resourceFileName));
 
         System.Reflection.Assembly assembly = System.Reflection.Assembly.GetCallingAssembly();
+
+        return GetManifestResourceNameFromAssembly(assembly, resourceFileName);
+    }
+
+    public static string GetManifestResourceNameFromAssembly(System.Reflection.Assembly assembly, string resourceFileName)
+    {
+        _ = assembly ?? throw new ArgumentNullException(nameof(assembly));
+        _ = resourceFileName ?? throw new ArgumentNullException(nameof(resourceFileName));
+
         string[] names = assembly.GetManifestResourceNames();
         var manifestFileName = names.SingleOrDefault(x => x.Contains(resourceFileName));
+
         return manifestFileName ?? throw new FileNotFoundException("Resource not found");
     }
 }
