@@ -1,7 +1,4 @@
-﻿using System.Reflection;
-using System.Text.Json.Serialization;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Configuration;
 
 namespace Csharp.Configuration;
 
@@ -17,12 +14,7 @@ public static class LoadSettings
 
         try
         {
-            if (File.Exists(configFileName))
-            {
-                return FromFile<T>(configFileName);
-            }
-
-            return FromUserSecrets<T>();
+            return File.Exists(configFileName) ? FromFile<T>(configFileName) : FromUserSecrets<T>();
         }
         catch (InvalidDataException ide)
         {

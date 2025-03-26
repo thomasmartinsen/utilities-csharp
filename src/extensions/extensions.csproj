@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>Martinsen.Csharp.Extensions</AssemblyName>
-    <RootNamespace>Csharp.Extensions</RootNamespace>
+    <AssemblyName>Utilities.Csharp.Extensions</AssemblyName>
+    <RootNamespace>Utilities.Extensions</RootNamespace>
   </PropertyGroup>
 
 </Project>
