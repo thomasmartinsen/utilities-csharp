@@ -4,8 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>Utilities.Csharp.Extensions</AssemblyName>
-    <RootNamespace>Utilities.Extensions</RootNamespace>
+    <AssemblyName>Utilities.Csharp.DateTime</AssemblyName>
+    <RootNamespace>DateTime</RootNamespace>
   </PropertyGroup>
 
 </Project>

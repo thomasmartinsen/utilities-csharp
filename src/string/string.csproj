@@ -4,12 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyName>Utilities.Csharp.Assembly</AssemblyName>
-    <RootNamespace>Assembly</RootNamespace>
+    <AssemblyName>Utilities.Csharp.String</AssemblyName>
+    <RootNamespace>String</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\string\string.csproj" />
-  </ItemGroup>
 
 </Project>

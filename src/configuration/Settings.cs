@@ -1,7 +1,7 @@
-﻿using Microsoft.Extensions.Logging;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
+using Microsoft.Extensions.Logging;
 
-namespace Csharp.Configuration;
+namespace Configuration;
 
 public abstract class Settings
 {

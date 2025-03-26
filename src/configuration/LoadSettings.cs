@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Csharp.Configuration;
+namespace Configuration;
 
 public static class LoadSettings
 {

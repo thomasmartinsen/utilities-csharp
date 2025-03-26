@@ -1,6 +1,6 @@
-﻿using Csharp.Extensions;
+﻿using Extensions;
 
-namespace Csharp.Assembly;
+namespace Assembly;
 
 public static class ManifestResource
 {
